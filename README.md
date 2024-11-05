@@ -16,3 +16,16 @@ This tool tests AWS S3 buckets for common misconfigurations, helping identify po
 3. Run the script with your S3 bucket URL:
    ./s3_misconfig_checker.sh https://bucket-name.s3.region.amazonaws.com
 
+**Tests Performed**
+List Permissions
+Read Permissions
+Download Permissions
+Write Permissions
+Read ACL Permissions (Bucket and Object)
+Write ACL Permissions
+Missing File Type Restrictions (Manual Step Required)
+Versioning Settings
+
+**Requirements**
+AWS CLI installed on Kali Linux (sudo apt install awscli).
+Sufficient permissions for testing each setting on the target S3 bucket.
