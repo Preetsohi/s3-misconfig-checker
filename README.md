@@ -17,14 +17,14 @@ This tool tests AWS S3 buckets for common misconfigurations, helping identify po
    ./s3_misconfig_checker.sh https://bucket-name.s3.region.amazonaws.com
 
 **Tests Performed**
-List Permissions
-Read Permissions
-Download Permissions
-Write Permissions
-Read ACL Permissions (Bucket and Object)
-Write ACL Permissions
-Missing File Type Restrictions (Manual Step Required)
-Versioning Settings
+1. List Permissions
+2. Read Permissions
+3. Download Permissions
+4. Write Permissions
+5. Read ACL Permissions (Bucket and Object)
+6. Write ACL Permissions
+7. Missing File Type Restrictions (Manual Step Required)
+8. Versioning Settings
 
 **Requirements**
 AWS CLI installed on Kali Linux (sudo apt install awscli).
